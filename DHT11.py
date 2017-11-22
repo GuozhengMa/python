@@ -66,10 +66,10 @@ while 1:
        #print("wrong")
         print("temperature:",temperature,"humidity:",humidity,"check:",check,"tmp:",tmp)
     #shu ju chuan dao yun shu ju ku
-    db=MySQLdb.connect(host='123.206.229.133',
+    db=MySQLdb.connect(host='123.206.111.111',
                           port=3306,
                           user='root',
-                          passwd='Caofeng2012@',
+                          passwd='111111',
                           db='test')
     cur_db=db.cursor()
     value=[temperature,humidity,str(time.strftime('%X %Z',time.localtime(time.time())))]
